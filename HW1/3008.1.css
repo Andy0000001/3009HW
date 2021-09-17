@@ -1,0 +1,66 @@
+.main {
+    background-color:rgb(58, 51, 51);
+    height: 400px;
+    margin: 0;
+    padding: 0;
+    max-width: 1000px;
+}
+
+h4{
+    color: grey;
+    margin-left: 20px;
+    
+}
+
+h1 {
+    color: white;
+    display: flex;
+    margin-left: 20px;
+}
+
+.tab1 {
+    margin-left: 100px;
+    display: inline-block;
+    border-spacing: 10px;
+    margin-top: 25px;
+}
+
+img {
+    height: 70px;
+    border-radius: 50%;
+    margin-left: 20px;
+    position: absolute;
+    margin-top: 25px;
+}
+
+.au, 
+.com, 
+.pub, 
+.up {
+    color: grey;
+}
+
+.geo,
+.go,
+.nov1,
+.nov2 {
+    color: white;
+}
+
+
+@media screen and (max-width:600px)
+{
+
+
+h1 {
+font-size: 40px;
+display: flex;
+margin-left: 40px;
+}
+
+h4 {
+    display: flex;
+    margin-left: 40px;
+    font-size: 20px;
+}
+}
